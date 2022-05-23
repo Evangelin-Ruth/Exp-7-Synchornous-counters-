@@ -51,67 +51,58 @@ This type of counter is normally referred to as a Down Counter, (CTD). In a bina
 
 
 ### PROGRAM 
-/*
+
 Program for flipflops  and verify its truth table in quartus using Verilog programming.
 Developed by: Evangelin.S
 RegisterNumber:  212221230025
-*/
-```
-DOWN COUNTER:
-module sk(input clk,input reset,output[3:0]counter);
-reg[3:0]counter_down;
-always@(posedge clk or posedge reset)
-begin
-if(reset)
-counter_down<=4'hf;
-else
-counter_down<=counter_down-4'd1;
-end
-assign counter = counter_down;
-endmodule 
 
-UP COUNTER
-module sk(input clk,input reset,output[3:0]counter);
-reg[3:0]counter_up;
-always@(posedge clk or posedge reset)
+module uc(input clk,input reset,output[0:3]counter);
+reg[0:3] counter_up;
+always@ (posedge clk or posedge reset)
 begin
 if(reset)
-counter_up<=4'd0;
+counter_up <= 4'd0;
 else
-counter_up<=counter_up+4'd1;
+counter_up <= counter_up + 4'd1;
 end
 assign counter = counter_up;
-endmodule 
-```
+endmodule
 
 
-### RTL LOGIC UP COUNTER AND DOWN COUNTER  
-## DOWN COUNTER
-![image](https://user-images.githubusercontent.com/94219798/169738334-88d2144a-9230-4c46-bb17-0d85fc34a008.png)
-
-## UP COUNTER
-![image](https://user-images.githubusercontent.com/94219798/169738505-901cb72b-f512-4fca-901b-1e768fbd8c07.png)
-
-
-
-
-
-
-
-
-### TIMING DIGRAMS FOR COUNTER  
-## DOWN COUNTER
-![image](https://user-images.githubusercontent.com/94219798/169738557-0daaff0a-40df-4cb1-b1af-df45d601df6e.png)
+module UC(input clk,input reset,output[0:3]counter);
+reg[0:3] counter_up;
+always@ (posedge clk or posedge reset)
+begin
+if(reset)
+counter_up <= 4'd0;
+else
+counter_up <= counter_up + 4'd1;
+end
+assign counter = counter_up;
+endmodule
 
 
-## UP COUNTER:
-![image](https://user-images.githubusercontent.com/94219798/169738582-a37c69ff-f76f-48ac-bd87-1387879083b4.png)
+### RTL LOGIC UP COUNTER  
+![image](https://user-images.githubusercontent.com/94219798/169740452-a2e7ec50-3c08-4ef4-b8bd-18f9dd061737.png)
 
+
+
+
+### TIMING DIGRAMS FOR  UP COUNTER  
+![image](https://user-images.githubusercontent.com/94219798/169740478-50837744-db51-4ec5-8e58-9900df98b17b.png)
 
 
 
 
 ### TRUTH TABLE 
+
+### RTL LOGIC DOWN COUNTER
+![image](https://user-images.githubusercontent.com/94219798/169740538-ffad76b9-0aca-46ba-a550-45d6317bae36.png)
+
+### TIMING DIGRAMS FOR DOWN COUNTER
+![image](https://user-images.githubusercontent.com/94219798/169740587-971da51d-3e4a-4541-92de-44933cb7f586.png)
+![image](https://user-images.githubusercontent.com/94219798/169740593-35e80a9b-018e-4c62-8edc-34a2653002df.png)
+
 
 
 
