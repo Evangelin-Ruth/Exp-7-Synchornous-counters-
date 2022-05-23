@@ -82,15 +82,15 @@ assign counter = counter_up;
 endmodule
 
 
-### RTL LOGIC UP COUNTER  
-![image](https://user-images.githubusercontent.com/94219798/169740452-a2e7ec50-3c08-4ef4-b8bd-18f9dd061737.png)
+### RTL LOGIC UP COUNTER AND DOWN COUNTER
+## UP COUNTER:
+![image](https://user-images.githubusercontent.com/94219798/169740807-438be305-0d2b-4c44-a52f-6d1c66b01fd9.png)
+## DOUWN COUNTER:
+![image](https://user-images.githubusercontent.com/94219798/169740842-b511d9b2-787e-4c28-8b2a-d48235b2412b.png)
 
 
-
-
-### TIMING DIGRAMS FOR  UP COUNTER  
-![image](https://user-images.githubusercontent.com/94219798/169740478-50837744-db51-4ec5-8e58-9900df98b17b.png)
-
+### TIMING DIGRAMS FOR COUNTER
+## UP COUNTER:
 
 
 
