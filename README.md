@@ -91,7 +91,7 @@ endmodule
 ![image](https://user-images.githubusercontent.com/94219798/169741641-b9ea449f-926e-4548-88b7-b17dcb3432df.png)
 
 
-## DOUWN COUNTER:
+## DOWN COUNTER:
 ![image](https://user-images.githubusercontent.com/94219798/169741658-5fc99534-3244-49ad-ba64-006349e07ff3.png)
 
 
