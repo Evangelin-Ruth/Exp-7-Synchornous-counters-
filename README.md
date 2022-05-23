@@ -46,18 +46,20 @@ This type of counter is normally referred to as a Down Counter, (CTD). In a bina
 
 4-bit Count Down Counter
 ### Procedure
+```
 1. Open a new project using Quartus II.
 2. Declare the inputs and outputs inside module projname().
 3. Set the reset value using register.
 4. Use commands like begin and end to stimulate the counter.
 5. For Up counter increment the count and for Down counter decrement the count.
 6. End the verilog programming.
+```
 ### PROGRAM 
-
+```
 Program for flipflops  and verify its truth table in quartus using Verilog programming.
 Developed by: Evangelin.S
 RegisterNumber:  212221230025
-```
+
 module uc(input clk,input reset,output[0:3]counter);
 reg[0:3] counter_up;
 always@ (posedge clk or posedge reset)
