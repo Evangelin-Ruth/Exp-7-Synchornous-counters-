@@ -91,17 +91,13 @@ endmodule
 
 ### TIMING DIGRAMS FOR COUNTER
 ## UP COUNTER:
+![image](https://user-images.githubusercontent.com/94219798/169740940-c6fa5208-dcd2-4e4c-9d9a-1de82e630e6d.png)
+## DOWN COUNTER
+![image](https://user-images.githubusercontent.com/94219798/169740965-d1d9f504-776b-4dc2-91b4-49076a61ea10.png)
 
 
 
 ### TRUTH TABLE 
-
-### RTL LOGIC DOWN COUNTER
-![image](https://user-images.githubusercontent.com/94219798/169740538-ffad76b9-0aca-46ba-a550-45d6317bae36.png)
-
-### TIMING DIGRAMS FOR DOWN COUNTER
-![image](https://user-images.githubusercontent.com/94219798/169740587-971da51d-3e4a-4541-92de-44933cb7f586.png)
-![image](https://user-images.githubusercontent.com/94219798/169740593-35e80a9b-018e-4c62-8edc-34a2653002df.png)
 
 
 
